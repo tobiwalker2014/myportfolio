@@ -3,27 +3,33 @@
 import React from "react";
 
 export default function Contact() {
+  // Initializing state variables for name, email, and message with empty strings
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
 
+  // Function to encode data into URL encoded format
   function encode(data) {
     return Object.keys(data)
       .map(
+        // For each key in data, we encode the key and its corresponding value
         (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
       )
-      .join("&");
+      .join("&"); // Join all key-value pairs with '&' in between
   }
 
+  // Function to handle form submission
   function handleSubmit(e) {
-    e.preventDefault();
+    e.preventDefault(); // Prevent default form submission behavior
+
+    // Send a POST request to the server
     fetch("/", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
+      headers: { "Content-Type": "application/x-www-form-urlencoded" }, // Set the content type of the request
+      body: encode({ "form-name": "contact", name, email, message }), // Encode and include the form data in the body of the request
     })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+      .then(() => alert("Message sent!")) // On successful request, alert the user
+      .catch((error) => alert(error)); // On failed request, alert the error
   }
 
   return (
