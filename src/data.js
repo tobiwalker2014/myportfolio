@@ -4,8 +4,8 @@
 // Each project object has a title, subtitle, description, image, and link
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "React Music Player",
+      subtitle: "Basic Music Player",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       // the image takes the path from the public folder
@@ -14,18 +14,18 @@ export const projects = [
       link: "https://reactbootcamp.com",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Movie Search App",
+      subtitle: "Built Using React and OMBD API",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "This app allows users to search for any movie and is built using an API to get movies searched for. It also contains a horizontal scroll effect like in Netflix and allows users to add and remove movies for favorites. ",
       // the image takes the path from the public folder
       image: "./project-2.gif",
       // the link is the url of the project
       link: "https://reedbarger.com",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Book Management App",
+      subtitle: "Built React Router, Context API, and Custom Hooks",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       // the image takes the path from the public folder
@@ -34,10 +34,10 @@ export const projects = [
       link: "https://jsbootcamp.com",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Counter App",
+      subtitle: "Built Using Redux",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "In this app, a counter application is built which helps in demonstrating how Resux works for state management",
       // the image takes the path from the public folder
       image: "./project-4.gif",
       // the link is the url of the project
