@@ -11,7 +11,7 @@ export const projects = [
       // the image takes the path from the public folder
       image: "./project-1.gif",
       // the link is the url of the project
-      link: "https://reactbootcamp.com",
+      link: "https://reactmusicplayerdemo.netlify.app",
     },
     {
       title: "Movie Search App",
@@ -21,7 +21,7 @@ export const projects = [
       // the image takes the path from the public folder
       image: "./project-2.gif",
       // the link is the url of the project
-      link: "https://reedbarger.com",
+      link: "https://reactmoviesearchapp11.netlify.app",
     },
     {
       title: "Book Management App",
@@ -31,7 +31,7 @@ export const projects = [
       // the image takes the path from the public folder
       image: "./project-3.gif",
       // the link is the url of the project
-      link: "https://jsbootcamp.com",
+      link: "https://bookmanagementapp1.netlify.app",
     },
     {
       title: "Counter App",
@@ -41,7 +41,7 @@ export const projects = [
       // the image takes the path from the public folder
       image: "./project-4.gif",
       // the link is the url of the project
-      link: "https://pythonbootcamp.com",
+      link: "https://reactcounterapp11.netlify.app",
     },
   ];
 
