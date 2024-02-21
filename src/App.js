@@ -7,6 +7,7 @@ import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
+import Resume from './Components/Resume';
 //import Testimonials from './Components/Testimonials';
 
 // The main App component
@@ -18,6 +19,7 @@ export default function App() {
       <Projects />
       <Skills />
       {/* <Testimonials /> */}
+      <Resume />
       <Contact />
     </main>
   );
