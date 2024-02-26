@@ -12,6 +12,7 @@ export const projects = [
       image: "./project-1.gif",
       // the link is the url of the project
       link: "https://reactmusicplayerdemo.netlify.app",
+      githublink: 'https://github.com/tobiwalker2014/musicplayer'
     },
     {
       title: "Movie Search App",
@@ -22,6 +23,7 @@ export const projects = [
       image: "./project-2.gif",
       // the link is the url of the project
       link: "https://reactmoviesearchapp11.netlify.app",
+      githublink: 'https://github.com/tobiwalker2014/moviesearch'
     },
     {
       title: "Book Management App",
@@ -32,6 +34,7 @@ export const projects = [
       image: "./project-3.gif",
       // the link is the url of the project
       link: "https://bookmanagementapp1.netlify.app",
+      githublink:'https://github.com/tobiwalker2014/bookmanagementapp'
     },
     {
       title: "Counter App",
@@ -42,27 +45,9 @@ export const projects = [
       image: "./project-4.gif",
       // the link is the url of the project
       link: "https://reactcounterapp11.netlify.app",
+      githublink:'https://github.com/tobiwalker2014/bookmanagementapp'
     },
   ];
-
-// The 'testimonials' array contains objects, each representing a testimonial with its details.
-// Each testimonial object has a quote, image, name, and company.
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
 
 // The 'skills' array contains a list of skills as strings.
 export const skills = [

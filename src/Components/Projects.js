@@ -9,10 +9,10 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <FaCode className="mx-auto inline-block w-10 mb-4" size={50} />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Projects That I Have Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Below are the most prominent front-end apps that I have built. For each app, the code is available in my GitHub repo.
+              Below are the most prominent front-end projects that I have built. For each project, the code is available in my GitHub repo.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
