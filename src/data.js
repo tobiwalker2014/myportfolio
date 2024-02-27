@@ -7,7 +7,7 @@ export const projects = [
       title: "React Music Player",
       subtitle: "Basic Music Player",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "This music player is built using JavaScript, HTML/CSS, and React JS. Furthermore, it uses use-sound and react-icons dependencies.",
       // the image takes the path from the public folder
       image: "./project-1.gif",
       // the link is the url of the project
@@ -29,7 +29,7 @@ export const projects = [
       title: "Book Management App",
       subtitle: "Built React Router, Context API, and Custom Hooks",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "This is a book management app that is built using CRUD operations, the React Router to navigate between routes, the React Context API to pass data across routes, and the Custom Hook.",
       // the image takes the path from the public folder
       image: "./project-3.gif",
       // the link is the url of the project
