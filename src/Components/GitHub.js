@@ -1,16 +1,13 @@
 import React from 'react';
 
-const ExternalLinkIcon = ({ url, iconUrl, alt }) => {
-  // Function to handle click event
+const ExternalLinkIcon = ({ iconUrl, destinationUrl }) => {
   const handleClick = () => {
-    // Opens the provided URL in a new tab when the icon is clicked
-    window.open(url, '_blank');
+    window.open(destinationUrl, '_blank');
   };
 
   return (
     <div onClick={handleClick} style={{ cursor: 'pointer' }}>
-      {/* Renders the icon image */}
-      <img src={iconUrl} alt={alt} />
+      <img src={iconUrl} alt="External Link Icon" />
     </div>
   );
 };
