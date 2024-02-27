@@ -8,7 +8,8 @@ import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Resume from './Components/Resume';
-//import Testimonials from './Components/Testimonials';
+import GitHub from './Components/GitHub';
+
 
 // The main App component
 export default function App() {
@@ -17,8 +18,12 @@ export default function App() {
       <Navbar />
       <About />
       <Projects />
+      <GitHub 
+        url="https://github.com/tobiwalker2014"  
+        iconUrl="https://iconduck.com/icons/111935/git"  
+        alt="External Link Icon"  
+      />
       <Skills />
-      {/* <Testimonials /> */}
       <Resume />
       <Contact />
     </main>

@@ -58,13 +58,9 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a href="mailto:tobiwalker2014@email.com" className="text-indigo-400 leading-relaxed">
+              <a href="mailto:owalker@email.com" className="text-indigo-400 leading-relaxed">
                 owalker2014@gmail.com
               </a>
-              {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">123-456-7890</p> */}
             </div>
           </div>
         </div>

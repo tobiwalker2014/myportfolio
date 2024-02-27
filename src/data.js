@@ -51,10 +51,16 @@ export const projects = [
 
 // The 'skills' array contains a list of skills as strings.
 export const skills = [
+  "HTML",
+  "CSS",
+  "Git and Git Hub",
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
+  "Redux",
+  "Next.JS",
+  "Node JS",
+  "Express",
+  "Firebase",
   "GraphQL",
-  "Material UI",
+  "Mongo DB",
 ];
